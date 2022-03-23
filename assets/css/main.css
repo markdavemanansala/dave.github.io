@@ -2920,7 +2920,9 @@
 			#footer .container {
 				padding: 3em 1.5em 1em 1.5em ;
 			}
-
+				.testgame {
+					width: 350px;
+				}
 	}
 
 /* XSmall */
