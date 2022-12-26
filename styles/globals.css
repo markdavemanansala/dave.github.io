@@ -22,3 +22,11 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+
+
+.grad {
+  
+  background: -webkit-linear-gradient(#eee, rgb(28, 4, 133), rgb(234, 23, 23));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
