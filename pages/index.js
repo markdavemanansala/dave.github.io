@@ -75,10 +75,10 @@ export default function Home() {
               Senior Full Stack Web3 Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              10 Years experience as a Dev, entered Blockchain in 2017 and based in Dubai!
+              10 Years experience as a Dev, entered Blockchain in 2017 and based in Dubai! 
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://twitter.com/0xManansala"><AiFillTwitterCircle /></a>
+              <a href="https://twitter.com/0xManansala"><AiFillTwitterCircle   /></a>
               <a href="https://www.linkedin.com/in/davegala09/"><AiFillLinkedin /></a>
               <a href="https://www.instagram.com/0xmanansala/"><AiFillInstagram /></a>
             </div>
