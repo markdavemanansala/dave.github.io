@@ -7,34 +7,28 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import laser from "../public/laser.jpg";
 import web3ducation from "../public/web3ducation.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
 import kaveguilddiscord from "../public/kaveguilddiscord.png"
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
-import p1 from "../public/p1.jpg";
+import dict1 from "../public/dict1.jpg";
+import dict2 from "../public/dict2.jpg";
+import dict3 from "../public/dict3.jpg";
+import ethvietnam from "../public/ethvietnam.jpg";
+import p1 from "../public/laser.jpg";
 import p2 from "../public/p2.jpg";
 import p3 from "../public/p3.jpg";
 import p4 from "../public/p4.jpg";
 import p5 from "../public/p5.jpg";
 import p6 from "../public/p6.jpg";
 import p7 from "../public/p7.jpg";
-import p8 from "../public/p8.jpg";
 import p9 from "../public/p9.jpg";
 import p10 from "../public/p10.jpg";
 import p11 from "../public/p11.jpg";
 import p12 from "../public/p12.jpg";
-import p13 from "../public/p13.jpg";
 import cointelegraph from "../public/cointelegraph.jpg";
-import p14 from "../public/p14.jpg";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -75,10 +69,10 @@ export default function Home() {
               Senior Full Stack Web3 Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              10 Years experience as a Dev, entered Blockchain in 2017 and based in Dubai! 
+              Based in Dubai, I have over 12 years of development experience, with a strong focus on the Web3 space since 2017.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://twitter.com/0xManansala"><AiFillTwitterCircle   /></a>
+              <a href="https://twitter.com/0xManansala"><AiFillTwitterCircle /></a>
               <a href="https://www.linkedin.com/in/davegala09/"><AiFillLinkedin /></a>
               <a href="https://www.instagram.com/0xmanansala/"><AiFillInstagram /></a>
             </div>
@@ -92,8 +86,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">About Me:</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Started coding since 2012, this marks my 10th year as a Dev.
-              I&apos;ve been in the WEB3 space for 6 years now, I have the expertise to assist businesses with the development of their custom Smart Contracts, DApps, DeFi, NFT Marketplace/Collection and much more. Along with that, I also founded our own Academy, which is dedicated to producing more Web3 Developers. On the other hand, I also provide some blockchain consulting and advice to a number of blockchain/crypto companies. I was frequently asked to speak at various blockchain conferences and am fervently committed to educating people about cryptocurrencies and blockchain technology.
+              I began coding in 2012 and have spent six years in the Web3 space. I specialize in smart contract development, decentralized applications (DApps), decentralized finance (DeFi), and NFT marketplaces. I also founded a Web3 academy to train new developers and offer blockchain consulting services.
 
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
@@ -110,41 +103,32 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} alt="mark manansala" />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Marketing
+                Expertise
               </h3>
-              <p className="py-2">I can assist you in promoting your project with robust web3 marketing solutions to generate awareness within the community and attract investors.
-              </p>
-              <h4 className="py-4 text-teal-600">I can provide</h4>
-              <p className="text-gray-800 py-1">Community Managers</p>
-              <p className="text-gray-800 py-1">Marketing Materials</p>
-              <p className="text-gray-800 py-1">Social Media Marketing</p>
-              <p className="text-gray-800 py-1">A lot more...</p>
+              <p className="py-2">Development: Skilled in Web3 libraries, EVM, frontend, and backend development.</p>
+              <p className="text-gray-800 py-1">Marketing: Provide robust Web3 marketing solutions including community management and social media marketing.</p>
+              <p className="text-gray-800 py-1">Consulting: Expertise in project management, blockchain protocols, and community building.</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} alt="mark manansala" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                #BUIDL
+                Accomplishments
               </h3>
-              <p className="py-2">
-                Are you looking for someone to make your idea into reality? Let&apos;s do this!
-              </p>
-              <h4 className="py-4 text-teal-600">Top Skills</h4>
-              <p className="text-gray-800 py-1">Most Web3 libraries</p>
-              <p className="text-gray-800 py-1">Can build on any EVM</p>
-              <p className="text-gray-800 py-1">Frontend</p>
-              <p className="text-gray-800 py-1">Backend</p>
+              <p className="py-2">Speaker: Frequent speaker at blockchain conferences in the Philippines, Thailand, Vietnam, Indonesia, Singapore, and Dubai.</p>
+              <p className="text-gray-800 py-1">Recognition: Featured in various blockchain and crypto industry events.</p>
+              <p className="text-gray-800 py-1">Founder: Established a Web3 academy focused on educating and mentoring new developers.</p>
+              <p className="text-gray-800 py-1">Consultant: Provided blockchain consulting and advisory services to numerous companies.</p>
+              <p className="text-gray-800 py-1">Projects: Successfully launched and managed multiple Web3 projects, demonstrating expertise in development and strategy.</p>
+
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} alt="mark manansala" />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
-              <p className="py-2">
-                Looking for a Web3 Expert? I can help you in every step of the way!
-              </p>
-              <h4 className="py-4 text-teal-600">I&apos;m an expert in</h4>
-              <p className="text-gray-800 py-1">Project Management</p>
-              <p className="text-gray-800 py-1">Blockchain Protocols</p>
-              <p className="text-gray-800 py-1">Community Building</p>
-              <p className="text-gray-800 py-1">Marketing</p>
+              <h3 className="text-lg font-medium pt-8 pb-2 ">
+                Stuff I do lately:
+              </h3>
+
+              <p className="text-gray-800 py-1">Kave Guild: Your Web3 Ally: Actively building a community and promoting Blockchain & Web3 Technology in the Philippines, encouraging students, professionals and all aspects of life to learn more about this opportunity.</p>
+              <p className="py-2">Web3ducation: An educational platform focused on teaching Web3 technologies and blockchain development.</p>
             </div>
           </div>
         </section>
@@ -157,7 +141,38 @@ export default function Home() {
               THAILAND - PHILIPPINES - VIETNAM - INDONESIA - SINGAPORE - DUBAI
             </p>
           </div>
-          <div className="grid grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-3 gap-4">
+            
+          <div className="sddd">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                alt="mark manansala"
+                height={"100%"}
+                layout="responsive"
+                src={dict1}
+              />
+            </div>
+            <div className="sddd">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                alt="mark manansala"
+                height={"100%"}
+                layout="responsive"
+                src={dict2}
+              />
+            </div>
+            <div className="sddd">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                alt="mark manansala"
+                height={"100%"}
+                layout="responsive"
+                src={dict3}
+              />
+            </div>
             <div className="sddd">
               <Image
                 className="rounded-lg object-cover"
@@ -235,7 +250,7 @@ export default function Home() {
                 alt="mark manansala"
                 height={"100%"}
                 layout="responsive"
-                src={p8}
+                src={ethvietnam}
               />
             </div>
             <div className="sddd">
@@ -289,7 +304,7 @@ export default function Home() {
 
             </p>
           </div>
-          <div className="grid grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4">
+          <div className="grid grid-cols-2 gap-4">
 
             <div className="sddd">
 
@@ -300,7 +315,7 @@ export default function Home() {
 
             <div>
               <iframe class="testgame" width="100%" height="100%" src="https://www.youtube.com/embed/Ry3ggJCK3Gg"
-                title="YouTube video player" frameborder="0"
+                title="Mark Manansala - Web3 Developer" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             </div>
@@ -315,12 +330,18 @@ export default function Home() {
                   layout="responsive"
                   src={cointelegraph}
                 /></a>
-
-              {/* <a
-                href="https://cointelegraph.com/news/turning-losses-to-wins-how-a-ponzi-victim-became-a-crypto-evangelist">
-                <img class="testgame"
-                  src="https://images.cointelegraph.com/images/1174_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjItMDMvNzIwODA3NGQtZjU5NC00MzNlLThlN2ItNmI0NTYwN2M4ZDY4LmpwZw==.jpg"
-                  width="100%" height="100%" /></a> */}
+            </div>
+            <div>
+              <a
+                href="https://www.facebook.com/DICTDavaoRegion/posts/pfbid0DNz5YjE5vGhWxFpkk769Xepg5tBLg2wWnBVPZvDNVDKrGvXqhdNTw34u9JurFdRYl">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  alt="mark manansala"
+                  height={"100%"}
+                  layout="responsive"
+                  src={dict2}
+                /></a>
             </div>
           </div>
         </section>
